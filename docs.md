@@ -14,7 +14,7 @@ This documentation page, aims to give an overview over the technical concepts of
 To create a sustainable and flexible system and being able to handle all future challenges, we defined the main components to be mostly technologically independent from each other.
 These main components are: the clients, the public API, the cloud services and the databases for the different instances. Of course, all data storage and transport is fully state-of-the-art encrypted.
 
-<img src="./assets/images/high-level-overview.png" alt="overview" width="100%">
+<img src="./assets/images/high-level-overview.jpg" alt="overview" width="100%">
 
 ### Clients
 
