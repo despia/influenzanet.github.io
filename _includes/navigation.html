@@ -4,28 +4,27 @@
         <ul class="navbar-nav">
             {% for item in site.data.navigation %}
             <li class="nav-item">
-                <a {% if page.url != item.link %} class="nav-link active" {% endif %} {% if page.url == item.link %}
-                    class="nav-link" {% endif %} href="{{ item.link }}">
+                <a {% if page.url != item.link %} class="nav-link" {% endif %} {% if page.url == item.link %}
+                    class="nav-link active" {% endif %} href="{{ item.link }}">
                     {{ item.name }}
                 </a>
             </li>
             {% endfor %}
-            <li>
-                <a class="nav-link" href="https://github.com/influenzanet"> <i class="fab fa-github"></i></a>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/influenzanet" target="blank">  <i
+                        class="fab fa-github"></i> GitHub</a>
             </li>
         </ul>
     </div>
     <div class="d-lg-none ml-auto dropdown">
-        <button class="navbar-toggler" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+        <button class="navbar-toggler" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
             {% for item in site.data.navigation %}
-            <a
-            {% if page.url == item.link %} class="dropdown-item active"  {% endif %}
-            {% if page.url != item.link %} class="dropdown-item"  {% endif %}
-                href="{{ item.link }}">
+            <a {% if page.url == item.link %} class="dropdown-item active" {% endif %} {% if page.url != item.link %}
+                class="dropdown-item" {% endif %} href="{{ item.link }}">
                 {{ item.name }}
             </a>
             {% endfor %}
