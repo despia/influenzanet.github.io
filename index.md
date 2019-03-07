@@ -57,6 +57,9 @@ The following parties are currently the main active contributors or contractors 
 
 
 ## Roadmap for 2019
+<div style="width: 100%; padding: 30px">
+<img src="./assets/images/roadmap.png" alt="roadmap" width="100%">
+</div>
 2019 Q1 - Implementation work on cloud infrastructure, deployment workflows, user management services - setting up frontend development
 
 2019 Q2 - Implementation work on study and survey system on the backend side and frontend (webapp) for participants and instance managers (researcher/admin)
