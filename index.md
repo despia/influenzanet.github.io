@@ -2,6 +2,9 @@
 layout: home
 title: Influenzanet 2.0
 ---
+<div style="padding-top:60px;padding-bottom:30px">
+	<img src="/assets/images/testlogo.png" alt="Logo (but not final)." width="100%">
+</div>
 
 InfluenzaNet 2.0 is the new version of InfluenzaNet currently in development. We redesigned InfluenzaNet to be able to ensure highest ethical, privacy and technical standards for now and the coming years.
 
