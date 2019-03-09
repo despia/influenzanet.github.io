@@ -54,7 +54,7 @@ The new system in developed is an open source solution using state of the art ar
 ## Parties
 The following parties are currently the main active contributors or contractors during the InfluenzaNet 2.0 development:
 
-<div style="margin-bottom:30px">
+<div style="margin-bottom:50px">
   {% include parties.html %}
 </div>
 
