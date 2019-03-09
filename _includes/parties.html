@@ -1,0 +1,47 @@
+{% for item in site.data.parties %}
+
+<div class="d-lg-none">
+  <div class="container" style="margin: 20px 0px 0px 0px;">
+    <div class="row">
+      <div class="col-sm-12">
+        <a href="{{ item.link }}" target="_blank" style="margin: 5px 0px 10px 0px;"><img src="{{ item.img }}" alt="{{ item.img_alt }}" style="max-width: 150px;"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <b>{{ item.name }}</b>, {{ item.location }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        {{ item.role }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="d-none d-lg-block">
+  <div class="container" style="margin: 20px 0px 0px 0px;">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="{{ item.link }}" target="_blank"><img src="{{ item.img }}" alt="{{ item.img_alt }}" style="width: 100%;"></a>
+      </div>
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-sm-12">
+            <b>{{ item.name }}</b>, {{ item.location }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            {{ item.role }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endfor %}
