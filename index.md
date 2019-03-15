@@ -27,7 +27,7 @@ In 2018 a first approach with a native app, used to utilise mobile sensor data, 
 ## Why we need a new version
 
 Technological progress, political and cultural changes cause shift in people’s behaviour and expectations towards highly reliable and well maintained systems.
-The current system was developed 13 years ago. Maintaining the monolithic and poorly documented code base has became a big burden. It became hard to integrate changes in privacy and ethics regulations.
+The current system was developed 13 years ago. Maintaining the monolithic and poorly documented code base has become a big burden. It became hard to integrate changes in privacy and ethics regulations.
 The new system in developed is an open source solution using state of the art architecture and methods. It will provide benefits to different stakeholders:
 
 **Benefits for User/Participants**
